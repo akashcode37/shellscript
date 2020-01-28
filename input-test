@@ -1,0 +1,10 @@
+#!/bin/bash
+echo
+echo taking input from variable
+echo
+echo
+echo
+echo what is your name
+read s
+echo
+echo hello $s
