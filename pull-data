@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+
+#Description: pull out word systemd  from a file.
+grep -i systemd /var/log/messages
