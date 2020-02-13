@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#Description: this script will list user logged in by user input
+echo " Please enter day (e.g. Mon)"
+read d
+echo 
+echo "Please enter month (e.g. Aug)"
+read m
+echo
+echo " Please enter date"
+read da
+echo
+
+last |  grep "$d $m $da"
+
+
